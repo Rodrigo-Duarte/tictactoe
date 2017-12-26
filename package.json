@@ -1,0 +1,21 @@
+{
+  "name": "tictactoe",
+  "version": "0.0.1",
+  "description": "TicTacToe",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha test/**/**.spec.js"
+  },
+  "author": "Rodrigo Duarte",
+  "license": "MIT",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.5"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "chai-datetime": "1.5.0",
+    "mocha": "4.0.1",
+    "sinon": "4.1.3"
+  }
+}
